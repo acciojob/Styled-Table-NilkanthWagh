@@ -1,1 +1,50 @@
 /* your code */
+body{
+    margin:5vh ;
+    padding:20px;
+    
+}
+table{
+    width:100%;
+    
+}
+th{
+    width:fit-content;
+}
+table{
+    margin: auto;
+    font-size: 20px;
+    text-align: left;
+    border:2px solid white ;
+    border-collapse: collapse;
+    /* border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #666; */
+}
+thead{
+    background-color: blue;
+    color:white;
+    
+}
+thead {
+    border: 1px solid;
+    border-radius: 10px;
+  }
+
+thead > th{
+   color :white;
+   border-top-left-radius: 50px;
+  
+}
+.tr2{
+   background-color: rgb(248, 224, 86);
+}
+.tr3{
+    background-color: rgb(223, 231, 71);
+}
+.tr4{
+    background-color: rgb(240, 221, 81);
+} 
+.tr5{
+    background-color: rgb(233, 202, 76);
+}
